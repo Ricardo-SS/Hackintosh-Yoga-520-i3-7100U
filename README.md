@@ -1,5 +1,9 @@
 <h1 align="center"> EFI Lenovo Yoga 520 core i3 7100U Perfect </h1>
 
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
+
 # Characteristics
 Screen: 14 inches with HD resolution (1366 x 768 pixels) and touch sensitive,
 Processor: Core i3 7100U,
