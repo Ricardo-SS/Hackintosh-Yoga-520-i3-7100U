@@ -1,6 +1,4 @@
-# Hackintosh-Yoga-520-i3-7-Gera--o
-
-EFI Lenovo Yoga 520 core i3 7100U Perfect
+<h1 align="center"> EFI Lenovo Yoga 520 core i3 7100U Perfect </h1>
 
 # Characteristics
 Screen: 14 inches with HD resolution (1366 x 768 pixels) and touch sensitive,
