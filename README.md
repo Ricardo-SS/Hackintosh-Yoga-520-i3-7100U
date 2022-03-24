@@ -34,7 +34,7 @@
 # does not work
 * Card reader,
 * fingerprint reader.
-* ntive wifi (has been replaced by an Intel 7265)
+* native wifi (has been replaced by an Intel 7265)
 
 # Heads up
 * see id layout tests to enable headphone output microphone (jack connector)
