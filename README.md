@@ -1,4 +1,5 @@
-<h1 align="center"> EFI Lenovo Yoga 520 core i3 7100U Perfect </h1>
+<h1 align="center"> EFI Lenovo Yoga 520-14IKB Intel-core i3 7100U </h1>
+<h3 align="center"> Hackintosh EFI partition with support for macOS </h3>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -24,7 +25,7 @@
 * webcam,
 * Audio (see layout id files),
 * HDMI connection (video and audio),
-* brightness control, 
+* brightness control keys f11 e f12, 
 * volume control, 
 * touch screen, 
 * connect audio jack with microphone, 
@@ -32,7 +33,7 @@
 * sleep.
 
 # does not work
-* Card reader,
+* Card reader, (no tested)
 * fingerprint reader.
 * native wifi (has been replaced by an Intel 7265)
 
