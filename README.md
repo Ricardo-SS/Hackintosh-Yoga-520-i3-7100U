@@ -2,7 +2,7 @@
 <h3 align="center"> Hackintosh EFI partition with support for macOS </h3>
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="img/status.svg"/>
 </p>
 
 # Characteristics
@@ -32,8 +32,13 @@
 * power control,
 * sleep.
 
+<<<<<<< HEAD
 # does not work
 * Card reader, (no tested)
+=======
+# Does not work
+* Card reader,
+>>>>>>> 4deb91f (Updated EFI and added EFI Monterey)
 * fingerprint reader.
 * native wifi (has been replaced by an Intel 7265)
 
@@ -46,3 +51,25 @@
 <h3>how to install themes!</h3>
 
 * Delete the Resources and Tools folders inside the EFI - OC folder and replace them with the ones inside the themes file.
+
+# Update 02/05/2022 Big Sur 11.6
+<p align="center">
+<img src="img/Big_Sur.png">
+</p>
+
+- Updated KEXTS Folder OC 0.7.8 Big Sur
+
+# Updade MacOS Monterey 12.3
+
+<p align="center">
+<img src="img/Monterey.png">
+</p>
+
+- Added folder EFI OC version 0.8 Mod-no-acpi monterey 
+- You can now boot windows through the opencore interface without problems, because oc acpi files are not injected into windows.
+- All kexts updated until 04/05/22
+- Fix quirks in config file
+- Removed patch that showed 2 Gb of video memory as it was purely aesthetic.
+- Added theme BsxImacGreen as standard
+
+
