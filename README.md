@@ -32,13 +32,6 @@
 * power control,
 * sleep.
 
-<<<<<<< HEAD
-# does not work
-* Card reader, (no tested)
-=======
-# Does not work
-* Card reader,
->>>>>>> 4deb91f (Updated EFI and added EFI Monterey)
 * fingerprint reader.
 * native wifi (has been replaced by an Intel 7265)
 
