@@ -59,6 +59,7 @@
 - Added theme BsxImacGreen as standard
 
 # Update 02/05/2022 Big Sur 11.6
+
 <p align="center">
 <img src="img/Big_Sur.png">
 </p>
