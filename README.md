@@ -45,13 +45,6 @@
 
 * Delete the Resources and Tools folders inside the EFI - OC folder and replace them with the ones inside the themes file.
 
-# Update 02/05/2022 Big Sur 11.6
-<p align="center">
-<img src="img/Big_Sur.png">
-</p>
-
-- Updated KEXTS Folder OC 0.7.8 Big Sur
-
 # Updade MacOS Monterey 12.3
 
 <p align="center">
@@ -65,4 +58,9 @@
 - Removed patch that showed 2 Gb of video memory as it was purely aesthetic.
 - Added theme BsxImacGreen as standard
 
+# Update 02/05/2022 Big Sur 11.6
+<p align="center">
+<img src="img/Big_Sur.png">
+</p>
 
+- Updated KEXTS Folder OC 0.7.8 Big Sur
