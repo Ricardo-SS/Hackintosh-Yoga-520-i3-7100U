@@ -6,7 +6,18 @@
 </p>
 
 <p align="center">
-<img src="img/foto.jpeg"/>
+<img src="img/foto.jpeg" width="500px" />
+</p>
+
+<hr>
+
+# Donate PayPal -  ricardos7@hotmail.com
+- <h3>Help maintain this project. Thank you 🍺 </h3>
+# Doações por PIX - leia o QRcode abaixo e doe qualquer valor.
+- <h3>Ajude a manter esse projeto. Obrigado 🍺 </h3>
+
+<p align="center">
+<img src="img/c6_bank_pix_qrcode.png" width="500px"/>
 </p>
 
 # Characteristics
