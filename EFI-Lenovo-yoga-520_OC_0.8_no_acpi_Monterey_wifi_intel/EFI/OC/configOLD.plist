@@ -126,9 +126,17 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key># framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>enable-hdmi20</key>
+				<key>AAPL,ig-platform-id</key>
+				<data>AADAhw==</data>
+				<key>device-id</key>
+				<data>FlkAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUJAAAIAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<string>&lt;02040a00 00080000 87010000&gt;</string>
+				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
@@ -136,8 +144,6 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -659,7 +665,7 @@
 				<key>Comment</key>
 				<string>YogaSMC.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/YogaSMC</string>
 				<key>MaxKernel</key>
@@ -700,8 +706,6 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<false/>
-			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
@@ -797,6 +801,8 @@
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -836,40 +842,6 @@
 			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
-		</dict>
-		<key>Serial</key>
-		<dict>
-			<key>Custom</key>
-			<dict>
-				<key>BaudRate</key>
-				<integer>115200</integer>
-				<key>ClockRate</key>
-				<integer>1843200</integer>
-				<key>DetectCable</key>
-				<false/>
-				<key>ExtendedTxFifoSize</key>
-				<integer>64</integer>
-				<key>FifoControl</key>
-				<integer>7</integer>
-				<key>LineControl</key>
-				<integer>7</integer>
-				<key>PciDeviceInfo</key>
-				<data>/w==</data>
-				<key>RegisterAccessWidth</key>
-				<integer>8</integer>
-				<key>RegisterBase</key>
-				<integer>1016</integer>
-				<key>RegisterStride</key>
-				<integer>1</integer>
-				<key>UseHardwareFlowControl</key>
-				<false/>
-				<key>UseMmio</key>
-				<false/>
-			</dict>
-			<key>Init</key>
-			<false/>
-			<key>Override</key>
-			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -981,20 +953,20 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TD0R6HV29</string>
+			<string>C02V73ZFHV29</string>
 			<key>SystemUUID</key>
-			<string>158C75DD-84A4-42B5-8259-81690945C420</string>
+			<string>BE362808-E44E-48DD-807C-9A3E6A74C2EC</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<true/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C027106094NHWVPUE</string>
+			<string>C02733207J9HWVPUE</string>
 			<key>ProcessorType</key>
-			<integer>1537</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>t4R5dMLs</data>
 			<key>SpoofVendor</key>
@@ -1004,9 +976,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TD0R6HV29</string>
+			<string>C02V73ZFHV29</string>
 			<key>SystemUUID</key>
-			<string>158C75DD-84A4-42B5-8259-81690945C420</string>
+			<string>BE362808-E44E-48DD-807C-9A3E6A74C2EC</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1017,13 +989,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f/8f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C027106094NHWVPUE</string>
+			<string>C02733207J9HWVPUE</string>
 			<key>ROM</key>
 			<data>t4R5dMLs</data>
 			<key>SystemSerialNumber</key>
-			<string>C02TD0R6HV29</string>
+			<string>C02V73ZFHV29</string>
 			<key>SystemUUID</key>
-			<string>158C75DD-84A4-42B5-8259-81690945C420</string>
+			<string>BE362808-E44E-48DD-807C-9A3E6A74C2EC</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1042,7 +1014,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-B4831CEBD52A0C4C</string>
 			<key>BoardSerialNumber</key>
-			<string>C027106094NHWVPUE</string>
+			<string>C02733207J9HWVPUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1052,7 +1024,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02TD0R6HV29</string>
+			<string>C02V73ZFHV29</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1076,9 +1048,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TD0R6HV29</string>
+			<string>C02V73ZFHV29</string>
 			<key>SystemUUID</key>
-			<string>158C75DD-84A4-42B5-8259-81690945C420</string>
+			<string>BE362808-E44E-48DD-807C-9A3E6A74C2EC</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
