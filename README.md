@@ -59,6 +59,7 @@
 <img src="img/Monterey.png">
 </p>
 <hr>
+
 <h3>Update 30/04/2022</h3>
 
 - Fixed video patch that didn't enable audio and video on HDMI
@@ -113,6 +114,16 @@
 
 - Delete the Resources and Tools folders inside the EFI - OC folder and replace them with the ones inside the themes file.
 
+# Disclaimer
+
+The hackintosh process is a relatively simple process, but 
+there is always the risk of you damaging your device, here 
+I am making available the files and procedure I used under 
+"My equipment", I am not responsible for any misuse or wrong 
+by whoever it is. The files are free to use, but not i will 
+be responsible for any damage that you may cause on your 
+equipment, the only one responsible will be you, who is who 
+is performing the procedure, in this way, do at your own risk.
 
 # Credits
 
