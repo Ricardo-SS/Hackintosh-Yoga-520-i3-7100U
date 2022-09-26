@@ -36,7 +36,7 @@
 * wifi (has been replaced by an Intel 7265)
 * usb 3.0 e USB type-C.
 * battery indicator.
-* intel UHD 620 graphics card with 2 gigas.
+* intel UHD 620 graphics card with 1.5 gigas.
 * webcam.
 * card Reader.
 * audio (see layout id files).
@@ -51,7 +51,7 @@
 # Doesn't work
 
 - Fingerprint reader.
-- Native wifi (has been replaced by an Intel 7265)
+- Native wifi (has been replaced by an Intel 7265) -  Recommend DW1560 - BCM94360NG (pluin and play).
 
 # Updade MacOS Monterey 12.3.1
 
@@ -68,7 +68,7 @@
 
 - Upadate ACPI DSDT, touchpad precision correction.
 - Improved power management.
-- Added kext yogaSMC.kext to activate secondary keys from F4 to F10 keys. <a link="https://github.com/zhen-zen/YogaSMC"> see installation instructions.</a>
+- Added kext yogaSMC.kext to activate secondary keys from F4 to F10 keys. <a href="https://github.com/zhen-zen/YogaSMC"> see installation instructions.</a>
 
 <h3>Update 04/04/2022</h3>
 
@@ -116,12 +116,12 @@
 
 # Credits
 
- - <a link="https://github.com/Ricardo-SS"> Ricardo-SS </a>
- - <a link="https://github.com/acidanthera"> Acidanthera </a>
- - <a link="https://github.com/dortania"> Dortania </a>
- - <a link="https://bitbucket.org/RehabMan/"> Rehabman </a>
- - <a link="https://www.olarila.com/profile/2-mald0n/"> MaLd0n </a>
- - <a link="https://github.com/OpenIntelWireless"> OpenIntelWireless </a>
- - <a link="https://github.com/zhen-zen"> zhen-zen </a>
- - <a link="#"> And others </a>
+ - <a href="https://github.com/Ricardo-SS"> Ricardo-SS </a>
+ - <a href="https://github.com/acidanthera"> Acidanthera </a>
+ - <a href="https://github.com/dortania"> Dortania </a>
+ - <a href="https://bitbucket.org/RehabMan/"> Rehabman </a>
+ - <a href="https://www.olarila.com/profile/2-mald0n/"> MaLd0n </a>
+ - <a href="https://github.com/OpenIntelWireless"> OpenIntelWireless </a>
+ - <a href="https://github.com/zhen-zen"> zhen-zen </a>
+ - <a href="#"> And others </a>
  
