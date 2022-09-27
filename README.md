@@ -6,18 +6,32 @@
 </p>
 
 <p align="center">
-<img src="img/foto.jpeg" width="500px" />
+<img src="img/foto.jpeg" width="400px" />
+</p>
+
+
+# Donate PayPal - I scan the QRcode below and give any value.
+
+<h3 align="center">Help maintain this project. Thank you 🍺 </h3>
+
+<form action="https://www.paypal.com/donate" method="post" target="_top" align="center">
+<input type="hidden" name="hosted_button_id" value="Z4V3GZF3ACE84" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<br>
+<p align="center">
+<img src="img/QR_Code_PayPal.png" width="200px" style="border: 10px solid rgb(50,134,198)"/>
 </p>
 
 <hr>
 
-# Donate PayPal -  ricardos7@hotmail.com
-- <h3>Help maintain this project. Thank you 🍺 </h3>
 # Doações por PIX - leia o QRcode abaixo e doe qualquer valor.
-- <h3>Ajude a manter esse projeto. Obrigado 🍺 </h3>
+<h3 align="center">Ajude a manter esse projeto. Obrigado 🍺 </h3>
 
 <p align="center">
-<img src="img/c6_bank_pix_qrcode.png" width="500px"/>
+<img src="img/c6_bank_pix_qrcode.png" width="200px" style="border: 10px solid rgb(254,121,0)"/>
 </p>
 
 # Characteristics
@@ -31,29 +45,37 @@
 - Weight: 1.74 kilos
 
 # It works
-* Keyboard with lighting and shortcuts for brightness and volume.
-* touchpad with gestures.
-* wifi (has been replaced by an Intel 7265)
-* usb 3.0 e USB type-C.
-* battery indicator.
-* intel UHD 620 graphics card with 1.5 gigas.
-* webcam.
-* card Reader.
-* audio (see layout id files).
-* HDMI connection (video and audio).
-* brightness control keys f11 e f12. 
-* volume control.
-* touch screen.
-* connect audio jack with microphone. 
-* power control.
-* sleep e auto sleep.
+- Keyboard with lighting and shortcuts for brightness and volume.
+- touchpad with gestures.
+- wifi (has been replaced by an Intel 7265)
+- usb 3.0 e USB type-C.
+- battery indicator.
+- intel UHD 620 graphics card with 1.5 gigas.
+- webcam.
+- card Reader.
+- audio (see layout id files).
+- HDMI connection (video and audio).
+- brightness control keys f11 e f12. 
+- volume control.
+- touch screen.
+- connect audio jack with microphone. 
+- power control.
+- sleep e auto sleep.
 
 # Doesn't work
 
 - Fingerprint reader.
-- Native wifi (has been replaced by an Intel 7265) -  Recommend DW1560 - BCM94360NG (pluin and play).
+- Native wifi (has been replaced by an Intel 7265) -  Recommend DW1560 - BCM94360NG (plug and play).
 
-# Updade MacOS Monterey 12.3.1
+# Screenshot 
+<br>
+<p align="center">
+<img src="img/Tela.png"/>
+</p>
+<br>
+<hr>
+
+# Updade MacOS Monterey 12.6
 
 <p align="center">
 <img src="img/Monterey.png">
@@ -90,19 +112,12 @@
 
 - Updated KEXTS Folder OC 0.7.8 Big Sur
 
-# Screenshot 
-<br>
-<p align="center">
-<img src="img/Tela.png"/>
-</p>
-<br>
 
 # Bugs
-
 - When turning on MacOS, sometimes the keyboard and mouse do not work on the OC screen until you enter windows and exit or reset nvram.
- <h4> * One way around this is by selecting the Mac partition and typing Ctrl + Enter to always start on it by default, and when using Windows, press the f12 or Fn + F12 key and choose the windows boot partition if it is on a disk different from mac. <br>
- * If the two systems tverem on the same disk a solution can be shut down using the power button or use an external mouse or keyboard, I can not describe this situation well since my systems are on different disks.  <br>
-</h4><br>
+- One way around this is by selecting the Mac partition and typing Ctrl + Enter to always start on it by default, and when using Windows, press the f12 or Fn + F12 key and choose the windows boot partition if it is on a disk different from mac.
+- If the two systems tverem on the same disk a solution can be shut down using the power button or use an external mouse or keyboard, I can not describe this situation well since my systems are on different disks.
+
 
 # Heads up
 * see id layout tests to enable headphone output microphone (jack connector)
@@ -115,7 +130,6 @@
 - Delete the Resources and Tools folders inside the EFI - OC folder and replace them with the ones inside the themes file.
 
 # Disclaimer
-
 The hackintosh process is a relatively simple process, but 
 there is always the risk of you damaging your device, here 
 I am making available the files and procedure I used under 
@@ -126,7 +140,6 @@ equipment, the only one responsible will be you, who is who
 is performing the procedure, in this way, do at your own risk.
 
 # Credits
-
  - <a href="https://github.com/Ricardo-SS"> Ricardo-SS </a>
  - <a href="https://github.com/acidanthera"> Acidanthera </a>
  - <a href="https://github.com/dortania"> Dortania </a>
@@ -135,4 +148,3 @@ is performing the procedure, in this way, do at your own risk.
  - <a href="https://github.com/OpenIntelWireless"> OpenIntelWireless </a>
  - <a href="https://github.com/zhen-zen"> zhen-zen </a>
  - <a href="#"> And others </a>
- 
