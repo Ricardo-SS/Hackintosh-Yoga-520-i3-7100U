@@ -12,17 +12,18 @@
 
 # Donate PayPal - I scan the QRcode below and give any value.
 
-<h3 align="center">Help maintain this project. Thank you 🍺 </h3>
+<h3 align="center">Help maintain this project. Thank you 🍺 <br>
+<a href="mailto:ricardos7@hotmail.com">ricardos7@hotmail.com</a>
+</h3>
+<p align="center">
+<img src="img/QR_Code_PayPal.png" width="200px" style="border: 10px solid rgb(50,134,198)"/>
+</p>
 
 <form action="https://www.paypal.com/donate" method="post" target="_top" align="center">
 <input type="hidden" name="hosted_button_id" value="Z4V3GZF3ACE84" />
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
 </form>
-
-<p align="center">
-<img src="img/QR_Code_PayPal.png" width="200px" style="border: 10px solid rgb(50,134,198)"/>
-</p>
 
 <hr>
 
