@@ -20,7 +20,6 @@
 <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
-<br>
 <p align="center">
 <img src="img/QR_Code_PayPal.png" width="200px" style="border: 10px solid rgb(50,134,198)"/>
 </p>
